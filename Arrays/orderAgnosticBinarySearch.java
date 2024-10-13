@@ -16,7 +16,7 @@ public class orderAgnosticBinarySearch {
             if(target==arr[mid]){
                 return mid;
             }
-            else{
+            
                 if(isAsc){
                     if(target<arr[mid]){
                         end=mid-1;
@@ -33,7 +33,6 @@ public class orderAgnosticBinarySearch {
                         end=mid-1;
                     }
                 }
-            }
         }
         
         return -1;
